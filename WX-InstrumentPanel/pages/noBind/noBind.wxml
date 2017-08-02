@@ -1,0 +1,11 @@
+<!--nobind.wxml-->
+<view class="container">
+  <view class="page-head">
+    相遇即是缘，我是智能鱼缸小奇。下面由我带领您进入科技与自然结合的新天地！
+  </view>
+  <view class="page-body"></view>
+  <view class="page-foot">
+  <button type="primary" bindtap="goBindFacility"> 已购买 </button>
+  <button type="default" bindtap="primary"> 立即购买 </button>
+  </view>
+</view>

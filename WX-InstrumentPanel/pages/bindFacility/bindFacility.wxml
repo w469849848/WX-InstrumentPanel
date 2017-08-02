@@ -1,0 +1,11 @@
+<!--bindFacility.wxml-->
+<view class="container">
+  <view class="page-head">
+    感谢您购买我们的智能鱼缸。初次使用，请绑定智能鱼缸设备，以便通过手机观察和操控您的鱼缸。
+  </view>
+  <view class="page-body"></view>
+  <view class="page-foot">
+  <button type="primary" bindtap="scanCode"> 扫码绑定 </button>
+  </view>
+</view>
+

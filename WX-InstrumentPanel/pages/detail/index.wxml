@@ -1,0 +1,15 @@
+
+<view>pieCanvas</view>
+<canvas class="canvas" canvas-id="pieCanvas" ></canvas>
+<view>ringCanvas</view>
+<canvas class="canvas" canvas-id="ringCanvas"></canvas>
+<view>lineCanvas</view>
+<canvas class="canvas" canvas-id="lineCanvas" bindtouchstart="touchHandler11"></canvas>
+<view>curvelineCanvas</view>
+<canvas class="canvas" canvas-id="curvelineCanvas"></canvas>
+<view>columnCanvas</view>
+<canvas class="canvas" canvas-id="columnCanvas"></canvas>
+<view>areaCanvas</view>
+<canvas class="canvas" canvas-id="areaCanvas"></canvas>
+<view>radarCanvas</view>
+<canvas class="canvas" canvas-id="radarCanvas"></canvas>

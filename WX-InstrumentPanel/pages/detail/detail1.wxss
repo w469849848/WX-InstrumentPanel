@@ -1,0 +1,27 @@
+/* pages/detail/detail1.wxss */
+@import "../../utils/common.wxss";
+.container{
+  width:80%;
+height:50px;
+margin:20px auto;
+overflow-x:auto;
+overflow-y:hidden;
+background-color:#eee;
+
+
+}
+.container .ul{
+  width:700px;
+  height:100px;
+  display: block;
+
+}
+.container .ul .li{
+  width:120rpx;
+height:50px;
+display:inline-block;
+float:left;
+text-align:center;
+
+
+}

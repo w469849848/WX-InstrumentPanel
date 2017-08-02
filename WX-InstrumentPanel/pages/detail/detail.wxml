@@ -1,0 +1,2 @@
+<view bindtap="bindViewTap">详情</view>
+<canvas canvas-id="clock"></canvas>

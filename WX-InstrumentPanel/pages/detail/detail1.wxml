@@ -1,0 +1,5 @@
+<view class="container" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+  <ul class="ul clearfix">
+    <li class="li" wx:for="{{menu}}">{{item.name}}</li>
+  </ul>
+</view>

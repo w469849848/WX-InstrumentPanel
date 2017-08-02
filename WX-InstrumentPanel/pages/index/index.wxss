@@ -1,0 +1,225 @@
+/**index.wxss**/
+page{
+	background-color: #09131c;
+	background-attachment:fixed;
+}
+.container {
+	height: 100%;
+	width: 100%;
+	color: #a1c5e8;
+	font-size: 30rpx;
+}
+/*页面头部start*/
+.page-head {
+	height: 70%;
+}
+
+.page-button {
+	height: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20rpx;
+}
+
+.page-target {
+	display: block;
+	width: 169rpx;
+	height: 53rpx;
+	text-align: center;
+	line-height: 53rpx;
+	background-color: #172129;
+	border-radius: 35rpx;
+	color: #395362;
+	font-size: 31rpx;
+}
+
+.target-value {
+	color: #9eb4ca;
+}
+
+.page-canvas {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-canvas canvas {
+	width: 100%;
+	height: 100%;
+}
+/*页面头部end*/
+
+/*鱼缸指标start*/
+.page-state {
+	width: 85%;
+	margin: 20rpx auto;
+	background-color: #060d14;
+	border-radius: 55rpx;
+	padding: 20rpx 70rpx;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 28rpx;
+	color:#576E87;
+}
+
+.canvas-target {
+	width:100%;
+	height:200rpx;
+	margin:50rpx 0;
+	display: flex;
+	justify-content: space-around;
+}
+.canvas-target .canvas-view{
+	width:33%;
+	height:100%;
+	position:relative;
+}
+.canvas-target p{
+	width:20px;
+	height:20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -10px;
+	z-index: 9999999;
+	background-color: #ffffff;
+}
+.canvas-target canvas {
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+}
+.canvas-target text{
+	display: block;
+	width: 100%;
+	height:20%;
+	font-size: 22rpx;
+	color:#576E87;
+	text-align: center;
+}
+/*开关*/
+.page-switch{
+	width: 95%;
+	margin: 20rpx auto;
+	background-color: #172129;
+	border-radius: 18rpx;
+}
+.switch-header{
+	width: 100%;
+	font-size: 34rpx;
+	padding:20rpx 2.5%;
+	border-bottom: 1px solid #252e36;
+	box-sizing:border-box;
+}
+.switch-body{
+	width:95%;
+	margin: 40rpx auto 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content:flex-start;
+}
+.switch-body .switch-content{
+	width:33%;
+	height:120rpx;
+}
+.switch-content text{
+	margin-right:10rpx;
+}
+/*鱼缸指标end*/
+
+/*参数设置start*/
+.page-parameter{
+	width:95%;
+	margin: 50rpx auto;
+	background-color: #172129;
+	border-radius: 18rpx;
+}
+.parameter-header{
+	width: 100%;
+	font-size: 34rpx;
+	padding:20rpx 2.5%;
+	border-bottom: 1px solid #252e36;
+	box-sizing:border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.parameter-reset{
+	font-size: 24rpx;
+	color: #4E6375;
+}
+.parameter-reset text{
+	width:29rpx;
+	height:29rpx;
+	display: inline-block;
+	background-color:#fff;
+	margin-left:15rpx;
+
+}
+.parameter-body{
+	width:95%;
+	margin: 40rpx auto 0;
+	
+}
+.white-light , .blue-light{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20rpx 0;
+}
+.parameter-name{
+	width: 100rpx;
+	font-size: 26rpx;
+	color: #A1C5E8;
+}
+.light-off,.light-on{
+	width:29rpx;
+	height:29rpx;
+	display: inline-block;
+	background-color:#fff;
+	vertical-align: top;
+}
+.white-light-slider , .blue-light-slider{
+	width:80%;
+	padding: 0 20rpx;
+}
+/*参数设置end*/
+
+/*修改slider组件的按钮
+.wx-slider-handle{
+	width:40rpx !important;
+	height: 40rpx !important;
+	top:15rpx !important;
+	background-color:#29ECFC !important;
+}*/
+/*修改slider组件的背景条
+.wx-slider-handle-wrapper{
+	height:14rpx !important;
+	border-radius: 10rpx !important;
+}*/
+/*修改switch组件的大小
+.page-switch .wx-switch-input{
+	width:76rpx !important;
+	height:40rpx !important;
+	border: 1px solid #2f383f !important;
+	background-color: transparent !important; 
+}*/
+/*修改switch组件的开的背景色
+.page-switch .wx-switch-input-checked{
+	border: 1px solid #29ecfc !important;
+	background-color: #29ecfc !important; 
+}*/
+/*修改switch组件的关的背景色
+.page-switch .wx-switch-input::before{
+	background-color: transparent !important; 
+}*/
+/*修改switch组件的按钮
+.page-switch .wx-switch-input::after{
+	width:36rpx !important;
+	height:36rpx !important;
+}*/

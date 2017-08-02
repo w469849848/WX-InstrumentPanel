@@ -1,0 +1,81 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="page-head">
+		<view class="page-button">
+			<text class="page-target">PH <text class="target-value">6.8</text></text>
+			<text class="page-target">TDS <text class="target-value">58</text></text>
+		</view>
+		<view class="page-canvas">
+			<canvas canvas-id="Temp"></canvas>
+		</view>
+	</view>
+	<view class="page-body">
+		<view class="page-state">智能鱼缸系统已为您保驾护航365天，目前各项指标正常</view>
+		<view class="canvas-target">
+			<view class="canvas-view">
+				<canvas canvas-id="filter"></canvas>
+				<p></p>
+				<text>滤芯</text>
+			</view>
+			<view class="canvas-view">
+				<canvas canvas-id="fishFood"></canvas>
+				<p></p>
+				<text>鱼食</text>
+			</view>
+			<view class="canvas-view">
+				<canvas canvas-id="PH"></canvas>
+				<p></p>
+				<text>PH探头</text>
+			</view>
+
+			<!--<span class="switch-button"><navigator url="../morePages/morePages" open-type="navigate">更多</navigator></span>-->
+		</view>
+		<view class="page-switch">
+			<view class="switch-header">开关设备</view>
+			<view class="switch-body">
+				<view class="switch-content">
+					<text>灯光</text>
+					<switch color="#29ecfc" bindchange="switch1Change" />
+				</view>
+				<view class="switch-content">
+					<text>喂食器</text>
+					<switch checked color="#29ecfc" bindchange="switch1Change" />
+				</view>
+				<view class="switch-content">
+					<text>加热棒</text>
+					<switch checked color="#29ecfc" bindchange="switch1Change" />
+				</view>
+				<view class="switch-content">
+					<text>水泵</text>
+					<switch checked color="#29ecfc" bindchange="switch1Change" />
+				</view>
+			</view>
+		</view>
+		<view class="page-parameter">
+			<view class="parameter-header">
+				<text class="parameter-title">参数设置</text>
+				<text class="parameter-reset">恢复出厂<text></text></text>
+			</view>
+			<view class="parameter-body">
+				<view class="white-light">
+					<text class="parameter-name">白灯</text>
+					<text class="light-off"></text>
+					<slider class="white-light-slider" bindchange="" value="20"step="5" activeColor="#29ecfc" backgroundColor="#2f383f"/>
+					<text class="light-on"></text>
+				</view>
+				<view class="blue-light">
+					<text class="parameter-name">蓝灯</text>
+					<text class="light-off"></text>
+					<slider class="white-light-slider" bindchange="" value="50"step="5" activeColor="#29ecfc" backgroundColor="#2f383f"/>
+					<text class="light-on"></text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="page-foot">
+		<view class="clearfix">
+			
+			<progress class="fl" percent="40" stroke-width="12" active />
+		</view>
+	</view>
+</view>
